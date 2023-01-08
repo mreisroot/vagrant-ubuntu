@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   # Ubuntu versão 20.04
   config.vm.box = "ubuntu/focal64"
 
-  # Rede pública no modo bridge; altere a placa de rede conforme
+  # Rede pública no modo bridge; altere as placas de rede conforme
   # as interfaces da sua máquina física
   config.vm.network "public_network", bridge: [
     "wlan0",
