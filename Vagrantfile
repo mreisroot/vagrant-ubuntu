@@ -1,16 +1,17 @@
 Vagrant.configure("2") do |config|
 
-  # Definindo nome, cpu e memória da máquina virtual
+  # Definir fornecedor e alocar recursos
   config.vm.provider "virtualbox" do |v|
     v.name = "exemplo-ubuntu"
     v.cpus = 1
-    v.memory = "1024"
+    v.memory = 1024
+    v.gui = false
   end
 
-  # Definindo o SO e configuração de rede da máquina
+  # Definir SO e configuração de rede
   
   # Ubuntu versão 20.04
-  config.vm.box = "ubuntu/focal64"
+  config.vm.box = "ubuntu/jammy64"
 
   # Rede pública no modo bridge; altere as placas de rede conforme
   # as interfaces da sua máquina física
