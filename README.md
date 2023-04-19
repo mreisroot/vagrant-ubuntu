@@ -29,7 +29,3 @@ Com este comando, haverá o acesso da máquina virtual via protocolo SSH (Secure
 5. Para apagar a máquina virtual, execute:
 
 `vagrant destroy`
-
-## License
-
-Licensed under the [ISC License](./LICENSE)
