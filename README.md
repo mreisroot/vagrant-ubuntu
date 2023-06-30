@@ -1,5 +1,7 @@
 # Instância do Ubuntu no Vagrant
 
+## Introdução
+
 Este projeto apresenta um exemplo simples de criação de máquina virtual pelo Vagrant.
 
 O SO utilizado neste exemplo é o Ubuntu na versão 22.04 (Jammy LTS).
