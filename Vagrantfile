@@ -10,8 +10,8 @@ Vagrant.configure("2") do |config|
 
   # Definir SO e configuração de rede
   
-  # Ubuntu versão 23.04
-  config.vm.box = "ubuntu/lunar64"
+  # Ubuntu versão 22.04
+  config.vm.box = "ubuntu/jammy64"
 
   # Rede pública no modo bridge; altere as placas de rede conforme
   # as interfaces da sua máquina física
